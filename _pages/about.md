@@ -7,4 +7,6 @@ redirect_from:
   - /about.html
 ---
 
+I'm a PhD candidate at the University of Murcia.
+
 This site is under construction!

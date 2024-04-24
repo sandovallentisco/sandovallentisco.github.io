@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Psychological Methods, University of Murcia, 2024 (expected)
+* M.S. in Cognitive Neuroscience, University of Granada, 2010
+* B.S. in Psychology, University of Murcia, 2019
 
 Work experience
 ======
