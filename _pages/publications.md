@@ -13,8 +13,8 @@ Under construction!
 
 {% include base_path %}
 
-
-# Selected papers
+ 
+## Some selected papers
 
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
