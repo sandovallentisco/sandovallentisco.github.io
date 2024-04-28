@@ -7,7 +7,7 @@
 html {
   /* apply a natural box layout model to all elements */
   box-sizing: border-box;
-  background-color:	#FEECE2;
+  background-color:	#fef6e2;
   font-size: 16px;
 
   @include breakpoint($medium) {
