@@ -13,7 +13,7 @@ author_profile: true
 
 ## Some selected papers
 
-**Sandoval-Lentisco, A.**, Tortajada, M., López-Nicolás, R., López-López, J. A., Wagenmakers, E. J., Sánchez-Meca, J., & Hardwicke, T. E. (In press). Preregistration of psychology meta-analyses: A cross-sectional study of prevalence and practice. *Advances in Methods and Practices in Psychological Science*. PREPRINT: [https://osf.io/preprints/metaarxiv/627a4](https://osf.io/preprints/metaarxiv/627a4)
+**Sandoval-Lentisco, A.**, Tortajada, M., López-Nicolás, R., López-López, J. A., Wagenmakers, E. J., Sánchez-Meca, J., & Hardwicke, T. E. (In press). Preregistration of psychology meta-analyses: A cross-sectional study of prevalence and practice. *Advances in Methods and Practices in Psychological Science*. Preprint link: [https://osf.io/preprints/metaarxiv/627a4](https://osf.io/preprints/metaarxiv/627a4)
 
 **Sandoval-Lentisco, A.**, López-Nicolás, R., Tortajada, M., López-López, J. A., & Sánchez-Meca, J. (2024). Transparency in Cognitive Training Meta-analyses: A Meta-review. *Neuropsychology Review*, 1-18. [https://doi.org/10.1007/s11065-024-09638-2](https://doi.org/10.1007/s11065-024-09638-2)
 
