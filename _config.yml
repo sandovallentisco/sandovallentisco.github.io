@@ -24,9 +24,9 @@ author:
   avatar           : "profile.png"
   name             : "Alejandro Sandoval-Lentisco"
   pronouns         : # example: "she/her"  
-  bio              : "PhD candidate at the University of Murcia (Spain)"
+  bio              : "Postdoctoral researcher at the Universidad Autónoma de Madrid (Spain)"
   location         : #Murcia
-  employer         : #"University of Murcia"
+  employer         : #"Universidad Autónoma de Madrid"
   uri              : # URL
   email            : # "alejandro.sandovall@um.es" 
 
@@ -47,7 +47,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : # Replace this with you Bluesky username
+  bluesky          : "@asandovall.bsky.social"
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -64,7 +64,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : "@Alejand31463005" # Username for X / Twitter
+  twitter          : #"@Alejand31463005" Username for X / Twitter
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
