@@ -1,11 +1,13 @@
 ---
-title: 'How many more citations do reviews (especially meta-analyses) receive compared to other types of articles?'
-date: 2025-02-26
-permalink: /posts/2025/02/citations-meta/
+title: "How many more citations do reviews (especially meta-analyses) receive compared
+  to other types of articles?"
+date: "2025-02-26"
+permalink: "/posts/2025/02/citations-meta/"
+output: pdf_document
 tags:
-  - citations
-  - meta-analysis
-  - impact
+- citations
+- "meta-analysis"
+- impact
 ---
 
 Review studies (particularly systematic reviews and meta-analyses) are said to be very important in the scientific literature as they are often placed at the top of the hierarchy of evidence (which is debatable, but I think that most researchers and practitioners still usually see these reviews as more important than most primary studies).
