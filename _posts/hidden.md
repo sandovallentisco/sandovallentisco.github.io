@@ -1,7 +1,7 @@
 ---
-title: 'Also testing'
-date: 2024-05-14
-permalink: /posts/2024/05/anothertest/
+title: "Also testing"
+date: "2024-05-14"
+permalink: "/posts/2024/05/anothertest/"
 tags:
   - test post
   - testing 2
