@@ -1,6 +1,13 @@
 /* Custom overrides for comments section */
-.page__comments {
-  max-width: 800px; /* or match your main content width */
+
+<style>
+.giscus {
+  max-width: 800px;
   margin: 2rem auto;
   padding: 0 1rem;
 }
+
+.giscus-frame {
+  width: 100% !important;
+}
+</style>
