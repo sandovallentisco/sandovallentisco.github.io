@@ -81,7 +81,19 @@ future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : "custom"
+  giscus:
+    repo                 : "sandovallentisco/sandovallentisco.github.io"
+    repo_id              : "R_kgDOLyUgEA"
+    category             : "Announcements"
+    category_id          : "DIC_kwDOLyUgEM4CvrOG"
+    mapping              : "pathname" # supported options: pathname, url, title
+    strict               : "0" # 1 = enable / 0 = disable
+    reactions            : "1" # 1 = enable / 0 = disable
+    metadata             : "0" # 1 = enable / 0 = disable
+    theme                : "light" # preferred light theme: light (default), light_high_contrast, light_protanopia, light_tritanopia, dark, dark_high_contrast, dark_protanopia, dark_tritanopia, preferred dark theme: dark (default), dark_high_contrast, dark_protanopia, dark_tritanopia
+    lang                 : "en" # supported language codes: ar, bg, ca, cs, da, de, en (default), es, fa, fr, hu, id, it, ja, ko, nl, pl, pt-BR, ro, ru, sk, sv-SE, tr, uk, vi, zh-CN, zh-TW
+    loading              : "lazy" # supported options: lazy (default), eager
   disqus:
     shortname            :
   discourse:
