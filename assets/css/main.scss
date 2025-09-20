@@ -14,6 +14,7 @@
 @import "variables";
 @import "mixins";
 @import "vendor/susy/susy";
+@import "custom";
 
 @import "reset";
 @import "base";
@@ -39,5 +40,3 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
-
-@import "custom";

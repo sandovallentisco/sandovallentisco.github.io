@@ -1,13 +1,11 @@
 /* Custom overrides for comments section */
 
-<style>
-.giscus {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 0 1rem;
+.giscus-wrapper {
+  max-width: 800px;       /* match your post content width */
+  margin: 2rem auto;      /* center horizontally */
+  padding: 0 1rem;        /* optional inner spacing */
 }
 
-.giscus-frame {
-  width: 100% !important;
-}
-</style>
+.giscus-wrapper iframe {
+  width: 100% !important; /* force iframe to fill wrapper */
+}   
