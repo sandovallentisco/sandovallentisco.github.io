@@ -94,14 +94,14 @@ comments:
     theme                : "light" # preferred light theme: light (default), light_high_contrast, light_protanopia, light_tritanopia, dark, dark_high_contrast, dark_protanopia, dark_tritanopia, preferred dark theme: dark (default), dark_high_contrast, dark_protanopia, dark_tritanopia
     lang                 : "en" # supported language codes: ar, bg, ca, cs, da, de, en (default), es, fa, fr, hu, id, it, ja, ko, nl, pl, pt-BR, ro, ru, sk, sv-SE, tr, uk, vi, zh-CN, zh-TW
     loading              : "lazy" # supported options: lazy (default), eager
-  disqus:
-    shortname            :
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+#  disqus:
+#    shortname            :
+#  discourse:
+#    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+#  facebook:
+#    appid                :
+#    num_posts            : # 5 (default)
+#    colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
@@ -233,7 +233,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
