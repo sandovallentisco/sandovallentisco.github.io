@@ -24,9 +24,9 @@ author:
   avatar           : "profile.png"
   name             : "Alejandro Sandoval-Lentisco"
   pronouns         : # example: "she/her"  
-  bio              : "Postdoctoral fellow at the Meta-Research Innovation Center at Stanford (METRICS)"
+  bio              : "Postdoctoral fellow at the Meta-Research Innovation Center at Stanford (METRICS) - Stanford University"
   location         : #Murcia
-  employer         : "Stanford University"
+  employer         : #"Stanford University"
   uri              : # URL
   email            : # "alejandro.sandovall@um.es" 
 
