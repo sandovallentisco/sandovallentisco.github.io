@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alejandro Sandoval-Lentisco - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: #f5f3ed;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #f5f3ed;
+            padding: 1rem 2rem;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 1.1rem;
+            color: #333;
+            text-decoration: none;
+        }
+
+        nav {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        nav a {
+            color: #666;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            gap: 3rem;
+            align-items: start;
+        }
+
+        .profile-section {
+            text-align: center;
+            position: sticky;
+            top: 2rem;
+        }
+
+        .profile-image {
+            width: 300px;
+            height: 300px;
+            border-radius: 8px;
+            object-fit: cover;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .profile-section h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            color: #333;
+        }
+
+        .profile-section p {
+            color: #666;
+            margin-bottom: 1.5rem;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 0.75rem;
+        }
+
+        .social-links a {
+            width: 40px;
+            height: 40px;
+            border: 2px solid #333;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: #333;
+            transition: all 0.3s;
+            font-size: 18px;
+        }
+
+        .social-links a svg {
+            width: 20px;
+            height: 20px;
+            fill: currentColor;
+        }
+
+        .social-links a:hover {
+            background-color: #333;
+            color: #f5f3ed;
+        }
+
+        .content-section {
+            background-color: white;
+            padding: 2.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .content-section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            color: #555;
+        }
+
+        .content-section p {
+            margin-bottom: 1.5rem;
+            color: #555;
+        }
+
+        .content-section a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .content-section a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+            font-size: 0.9rem;
+            border-top: 1px solid #ddd;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .profile-section {
+                position: static;
+            }
+
+            .profile-image {
+                width: 200px;
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Alejandro Sandoval-Lentisco</a>
+        <nav>
+            <a href="publications.html">Publications</a>
+            <a href="blog.html">Blog Posts</a>
+            <a href="cv.html">CV</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="profile-section">
+            <img src="images/profile.jpeg" alt="Profile" class="profile-image">
+            <h1>Alejandro Sandoval-Lentisco</h1>
+            <p>Postdoctoral fellow at the Meta-Research Innovation Center at Stanford (METRICS) - Stanford University</p>
+            <div class="social-links">
+                <a href="https://scholar.google.com/citations?user=NEvZHZQAAAAJ&hl" title="Google Scholar">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </a>
+                <a href="https://github.com/sandovallentisco" title="GitHub" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://bsky.app/profile/@asandovall.bsky.social" title="Bluesky">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8z"/>
+                    </svg>
+                </a>
+                <a href="https://www.last.fm/user/Cujo1234" title="Last.fm">
+                    <i class="fa-brands fa-lastfm"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2>Hi there!</h2>
+            
+            <p>I'm a postdoctoral fellow at the <a href="https://metrics.stanford.edu/">Meta-Research Innovation Center at Stanford (METRICS)</a>. Previously, I was a postdoc at the <a href="https://calluam.wordpress.com/">CALL</a> at Universidad Autónoma de Madrid, and I earned my PhD in Psychology from the University of Murcia.</p>
+            
+            <p>I'm interested in everything related to evaluating and improving our scientific practices. For this reason, my research focuses on conducting meta-research on the adequacy of methodological and transparency practices, with a special emphasis on evidence synthesis. I'm also interested in broader meta-scientific topics such as mechanisms of scientific self-correction and how research should be evaluated, including the appraisal of primary studies in evidence synthesis, peer review, and academic hiring decisions.</p>
+            
+            <p>Reach me at <a href="mailto:asandlen@stanford.edu">asandlen@stanford.edu</a>!</p>
+        </div>
+    </div>
+
+    <footer>
+        2026 · Alejandro Sandoval Lentisco · Made with Sonnet 4.5 (using HTML & CSS)
+    </footer>
+</body>
+</html>
