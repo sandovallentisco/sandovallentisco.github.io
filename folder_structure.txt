@@ -1,7 +1,0 @@
-your-project-folder/
-├── index.html
-├── publications.html
-├── cv.html
-├── cv.PDF
-└── images/
-    └── profile.jpeg
