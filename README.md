@@ -12,7 +12,7 @@ This website showcases my research in meta-research, methodology, and evidence s
 
 - **Home**: Introduction and background
 - **Publications**: Selected research papers and links to Google Scholar
-- **Blog**: Thoughts on meta-research and methodology
+- **Blog**: Thoughts on meta-science and related topics
 - **CV**: Curriculum Vitae
 
 ## Research Interests
@@ -26,14 +26,14 @@ This website showcases my research in meta-research, methodology, and evidence s
 ## Contact
 
 - 📧 Email: [asandlen@stanford.edu](mailto:asandlen@stanford.edu)
-- 🎓 Google Scholar: [Link to profile]
-- 💻 GitHub: [@asandovala](https://github.com/asandovala)
-- 🦋 Bluesky: [Link to profile]
-- 🎵 Last.fm: [Link to profile]
+- 🎓 Google Scholar: [Link to profile])(https://scholar.google.com/citations?user=NEvZHZQAAAAJ&hl)
+- 💻 GitHub: [@sandovallentisco](https://github.com/sandovallentisco)
+- 🦋 Bluesky: [Link to profile](https://bsky.app/profile/asandovall.bsky.social)
+- 🎵 Last.fm: [Link to profile](https://www.last.fm/user/Cujo1234)
 
 ## Technical Details
 
-This website is built with:
+This website was made with Claude Sonnet 4.5. Built with:
 - HTML5 & CSS3
 - Font Awesome icons
 - Giscus comments (powered by GitHub Discussions)
